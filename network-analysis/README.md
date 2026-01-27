@@ -25,7 +25,7 @@ Observations:
 
 This demonstrates that DNS metadata can reveal browsing behavior even when application data is later encrypted.
 
-*(See: dns-query-response-opera.png)*
+*(See: DNS-Query.png)*
 
 ---
 
@@ -39,7 +39,7 @@ Observations:
 
 This confirms how TCP ensures reliable communication before higher-layer protocols are used.
 
-*(See: tcp-three-way-handshake.png)*
+*(See: TCP-Handshake.png)*
 
 ---
 
@@ -55,7 +55,7 @@ Observations:
 
 This demonstrates how encryption protects data in transit while still exposing limited connection metadata.
 
-*(See: tls-handshake-encrypted-traffic.png)*
+*(See: TLS-Handshake.png)*
 
 ---
 
