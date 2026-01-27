@@ -1,2 +1,17 @@
 # Cyber-Portfolio
 Cybersecurity Projects and Labs
+
+New graduate in Cybersecurity with Security+.
+This repository will contain hands-on security projects as I complete them.
+
+## Planned Projects
+- Password Cracking & Security Best Practices
+- Network Traffic Analysis (Wireshark)
+- Linux System Hardening
+- Incident Response Walkthrough
+
+## Tools
+Wireshark · Linux · Hashcat · Nmap · TryHackMe
+
+## Certifications
+- CompTIA Security+
