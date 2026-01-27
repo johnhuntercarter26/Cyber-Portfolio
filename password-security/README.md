@@ -22,5 +22,5 @@ This project was originally completed as an academic poster. The original poster
 - Salting hashes reduces the effectiveness of precomputed attacks
 - User education and strong password policies are critical for real-world security
 
-# Presented at the University of North Georgia Annual Research Conferenece
-# https://arc.ungjournals.org/articles/157
+## Presented at the University of North Georgia Annual Research Conferenece
+## https://arc.ungjournals.org/articles/157
