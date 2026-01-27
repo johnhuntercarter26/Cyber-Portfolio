@@ -1,0 +1,21 @@
+# Network Traffic Analysis (Wireshark)
+
+## Objective
+Capture and analyze real network traffic to understand common protocols and communication patterns.
+
+## Method
+Live traffic capture on a personal machine using Wireshark.
+
+## Key Observations
+- DNS queries occur before most web connections
+- HTTPS traffic is encrypted and unreadable at the payload level
+- TCP three-way handshakes establish reliable connections
+- Background services generate constant network traffic
+
+## Tools Used
+- Wireshark
+
+## Key Takeaways
+- Encryption protects data in transit
+- Unencrypted protocols expose readable data
+- Traffic analysis can reveal behavior patterns even when payloads are encrypted
