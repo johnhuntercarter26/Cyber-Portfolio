@@ -5,8 +5,9 @@ New graduate in Cybersecurity with Security+.
 This repository will contain hands-on security projects as I complete them.
 
 ## Completed Projects
-- Password Cracking & Security Best Practices 
- 
+- [Password Cracking & Security Best Practices](./password-security)
+ - Analyzed password strength, cracking techniques, and best practices using academic and hands-on methods.
+
 ## Planned Projects
 - Network Traffic Analysis (Wireshark)
 - Linux System Hardening
