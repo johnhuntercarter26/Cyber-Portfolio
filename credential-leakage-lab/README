@@ -6,7 +6,6 @@ It covers how credentials are commonly leaked, how such leaks are detected, and�
 
 All credentials used in this lab were **intentionally fake** and created solely for educational purposes.
 
----
 
 ## Objectives
 - Simulate a realistic credential leak in a Git repository
@@ -15,7 +14,6 @@ All credentials used in this lab were **intentionally fake** and created solely 
 - Eradicate leaked secrets from Git history
 - Verify remediation using automated scanning tools
 
----
 
 ## Tools & Technologies
 - **Git / GitHub**
@@ -23,14 +21,12 @@ All credentials used in this lab were **intentionally fake** and created solely 
 - **git-filter-repo** (Git history rewriting)
 - **PowerShell (Windows)**
 
----
 
 ## Incident Walkthrough
 
 ### 1. Credential Leak Simulation
 A fake AWS-style access key was intentionally placed in a `.env` file and committed to the repository, simulating a common developer mistake where sensitive configuration files are accidentally tracked by Git and pushed to a public remote.
 
----
 
 ### 2. Detection
 The repository was scanned using **Gitleaks**, which identified:
@@ -40,7 +36,6 @@ The repository was scanned using **Gitleaks**, which identified:
 
 Manual Git inspection was also used to validate the finding.
 
----
 
 ### 3. Containment
 To prevent future leaks:
@@ -49,7 +44,6 @@ To prevent future leaks:
 
 This ensured no new credentials could be accidentally committed.
 
----
 
 ### 4. Eradication
 Simply deleting the file was insufficient, as credentials remained in Git history.
@@ -60,7 +54,6 @@ Using **git-filter-repo**, the leaked `.env` file was:
 
 The cleaned history was then force-pushed to GitHub.
 
----
 
 ### 5. Verification
 After remediation:
@@ -70,7 +63,6 @@ After remediation:
 
 This confirmed successful remediation.
 
----
 
 ## Key Takeaways
 - Deleting a secret file does **not** remove it from Git history
@@ -78,7 +70,6 @@ This confirmed successful remediation.
 - Automated tools are essential for both detection and verification
 - Credential hygiene must be enforced proactively, not reactively
 
----
 
 ## Skills Demonstrated
 - Credential leak detection and response
@@ -87,7 +78,6 @@ This confirmed successful remediation.
 - Incident response lifecycle (detect → contain → eradicate → verify)
 - Practical DevSecOps fundamentals
 
----
 
 ## Disclaimer
 All credentials used in this lab were fake and generated solely for training purposes.  
