@@ -11,14 +11,14 @@ Analyzed password strength, cracking techniques, and best practices using academ
 Captured and analyzed real network traffic to understand common protocols and communication patterns.
 - [Credential Leakage lab](./credential-leakage-lab)
   covers how credentials are commonly leaked, how such leaks are detected, and—most importantly—how they are **properly remediated**, including removal from Git history.
+-
 
 ## Planned Projects
-- Network Traffic Analysis (Wireshark)
 - Linux System Hardening
 - Incident Response Walkthrough
 
 ## Tools
-Wireshark · Linux · Hashcat · Nmap · TryHackMe - John The Ripper
+Wireshark · Linux · Hashcat · Nmap · TryHackMe - John The Ripper - Git - Gitleaks - Powershell - Git-filter-Repo
 
 ## Certifications
 - CompTIA Security+
