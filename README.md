@@ -11,7 +11,7 @@ Analyzed password strength, cracking techniques, and best practices using academ
 Captured and analyzed real network traffic to understand common protocols and communication patterns.
 - [Credential Leakage lab](./credential-leakage-lab)
   covers how credentials are commonly leaked, how such leaks are detected, and—most importantly—how they are **properly remediated**, including removal from Git history.
--
+- [log analysis](./log-analysis)
 
 ## Planned Projects
 - Linux System Hardening
