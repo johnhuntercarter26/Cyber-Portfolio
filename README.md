@@ -10,8 +10,9 @@ Analyzed password strength, cracking techniques, and best practices using academ
 - [Network Traffic Analysis (Wireshark)](./network-analysis)
 Captured and analyzed real network traffic to understand common protocols and communication patterns.
 - [Credential Leakage lab](./credential-leakage-lab)
-  covers how credentials are commonly leaked, how such leaks are detected, and—most importantly—how they are **properly remediated**, including removal from Git history.
-- [log analysis](./log-analysis)
+Covers how credentials are commonly leaked, how such leaks are detected, and—most importantly—how they are **properly remediated**, including removal from Git history.
+- [Log Analysis](./log-analysis)
+Demonstrates basic log analysis techniques used in Security Operations Center (SOC) environments. 
 
 ## Planned Projects
 - Linux System Hardening
